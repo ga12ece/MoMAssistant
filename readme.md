@@ -1,27 +1,20 @@
-## Use Azure app service editor
+## Inspiration
+My sister, a young mother who loves her daughter so much, always feel stressed with her duties. She cannot balance between life and work, and usually feel alone. If our family hasn't been next to her during her need, I do not know what things can happen. Therefore, I want to make MoM Assistant to share, talk and can be a friend to any young mother.
+## What it does
+MoM Assistant, a chat+voice bot is able to help young mothers efficiently manage their schedule and diagnose their mental health at early stage. 
 
-1. make code change in the online editor
+## How I built it
+Using Microsoft Bot Builder to construct the decision tree for the bot, Luis.AI to build the Natural Language Understanding, Bing Speech API to convert speech to text, Twilio for handling SMS text to relatives.
 
-Your code changes go live as the code changes are saved.
+## Challenges I ran into
+Sleepiness, 1st time hacking without my gangs. Bing Speech API to convert speech to text. Adaptive card to build informative answer.
 
-## Use Visual Studio Code
+## Accomplishments that I'm proud of
+Finish a prototype with basic functions. 
 
-### Build and debug
-1. download source code zip and extract source in local folder
-2. open the source folder in  Visual Studio Code
-3. make code changes
-4. download and run [botframework-emulator](https://emulator.botframework.com/)
-5. connect the emulator to http://localhost:3987
+## What I learned
+Web-dev (definitely will need to improve later)
 
-### Publish back
-
-```
-npm run azure-publish
-```
-
-## Use continuous integration
-
-If you have setup continuous integration, then your bot will automatically deployed when new changes are pushed to the source repository.
-
-
-
+## What's next for Mom Assistant
+Combine Bing Search, instead of using dummy databases.
+Complete the ML algorithms to detect the mental stage. 
